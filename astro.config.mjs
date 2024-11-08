@@ -3,6 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'http://rakrisi.com/loveforgo/',
 	integrations: [
 		starlight({
 			title: 'LoveForGo',
