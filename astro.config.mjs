@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'http://rakrisi.com/loveforgo/',
+	base: '/loveforgo/loveforgo/dist',
 	integrations: [
 		starlight({
 			title: 'LoveForGo',
